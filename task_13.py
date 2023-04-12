@@ -28,3 +28,34 @@ while num < days:
 if duration > maxD:
     maxD = duration
 print(f"Максимальная продолжительность оттепели  {maxD}, дн")
+
+# Вариант 2
+# days = int(input("Введите количество дней: "))
+# i = 0
+# count = 0
+# count_max = 0
+# while i < days:
+#     day_t = int(input(f"Введите температуру {i+1} дня: "))
+#     i += 1
+#     if day_t > 0:
+#         count += 1
+#     else:
+#         count = 0
+#     if count > count_max:
+#         count_max = count
+# print(count_max)
+
+# Вариант 3
+# count, countMax = 0, 0
+# day = int(input("Введите количество дней наблюдений: "))
+# for i in range (1, day+1): 
+#         temp = int(input(f"Введите температуру {i} дня:"))
+#         if temp > 0:
+#                 count+=1
+#         else:
+#             if  countMax < count:
+#                 countMax = count
+#             count = 0
+# if  countMax < count:
+#     countMax = count
+# print(f"Продолжительность оттепели {countMax} дн.")

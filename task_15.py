@@ -18,4 +18,30 @@ for i in range(N):
         max = m
     if m < min:
         min = m
-print(f"Для тёщи надо купить арбуз по {min} кг, для себя - по {max} кг")
+print(f"Для тёщи надо купить арбуз весом {min} кг, для себя - {max} кг")
+
+# Вариант 2
+# mellons = int(input("Введите количество арбузов "))
+# i = 0
+# min_w = 30000
+# max_w = 0
+# while i < mellons:
+#     mellon_weight = int(input(f"Введите вес арбуза {i+1}: "))
+#     if mellon_weight > max_w:
+#         max_w = mellon_weight
+#     if mellon_weight < min_w:
+#         min_w = mellon_weight
+#     i += 1
+# print(f"Теще арбуз весом {min_w} кг, себе - весом {max_w}, кг")
+
+# Вариант 3
+# Arbuz = int(input("Enter arbuz: "))
+# VesMin =VesMax= int(input("Ves Arbuz: "))
+# for i in range (1, Arbuz):
+#     temp = int(input("Ves Arbuz: "))
+#     if temp > VesMax:
+#         VesMax=temp
+#     elif temp < VesMin:
+#         VesMin=temp
+# print(f"Для тещи {VesMin}, Для себя {VesMax}")
+
